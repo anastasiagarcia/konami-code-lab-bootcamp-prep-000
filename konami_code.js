@@ -29,6 +29,7 @@ function processKey(event){
   }
   if(index===codes.length){
     alert ("You won!");
+    index=0;
   }
 }
 init();
