@@ -13,7 +13,7 @@ const codes = [
 
 
 function init() {
-document.body.addEventListener ("onKeyDown",processKey);
+document.body.addEventListener ("keydown",processKey);
 }
 var index=0;
 
@@ -22,11 +22,11 @@ function processKey(event){
 
   if(keyPressed===codes[index]){
     index++;
-    
   }
   else{
     index=0;
   }
+  
   if(index===codes.length){
     alert ("Hurray!");
     index=0;
