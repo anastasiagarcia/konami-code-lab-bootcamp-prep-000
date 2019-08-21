@@ -28,7 +28,7 @@ function processKey(event){
     index=0;
   }
   if(index===codes.length){
-    alert ("You won!");
+    alert ("Hurray!");
     index=0;
   }
 }
